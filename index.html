@@ -1,0 +1,33 @@
+
+   ```html
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Dancing Photo</title>
+       <style>
+           /* Dancing animation */
+           @keyframes dance {
+               0% { transform: rotate(0deg); }
+25% { transform: rotate(15deg); }
+               50% { transform: rotate(0deg); }
+               75% { transform: rotate(-15deg); }
+               100% { transform: rotate(0deg); }
+           }
+
+           .dancing-image {
+               width: 300px;
+               height: auto;
+               animation: dance 1s infinite;
+           }
+       </style>
+   </head>
+   <body>
+       <h1>Watch the photo dance!</h1>
+       <img src="Photoroom-20250222_012157.png" alt="Dancing Image" class="dancing-image">
+   </body>
+   </html>
+   ```
+
+   
